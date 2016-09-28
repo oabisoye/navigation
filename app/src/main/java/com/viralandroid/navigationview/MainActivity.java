@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.navigation_header);
         EditText editName = (EditText) findViewById(R.id.editName);
+        int dummyVariable = -1;
         setContentView(R.layout.activity_main);
         initInstances();
     }
